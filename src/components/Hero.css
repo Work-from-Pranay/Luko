@@ -155,6 +155,10 @@
       border-radius: 100px;
       overflow: hidden;
     }
+    .lft-nav img{
+      width: 10%;
+      
+    }
     .row-div{
       display: flex;
       flex-direction: column;
@@ -174,6 +178,7 @@
       scale: 1;
       
     }
+  
     #row-div-2{
       margin-top: -2%;
     }
@@ -193,7 +198,7 @@
     }
     
     .overlay-div h4{
-      font-size: 3vw;
+      font-size: 1vw;
       text-align: center;
       font-family: FontOne;
       opacity: 0;
