@@ -8,6 +8,9 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
+import gi from "../../images/guranteeimage.jpeg"
+import mii from "../../images/mii.png"
+
 
 const Part4 = () => {
     const box6 = useRef();
@@ -49,8 +52,8 @@ const Part4 = () => {
                             <p>Our dog food is specially formulated to meet the needs of dogs living in the Indian climate. It includes enhanced moisture content for hydration, easily digestible ingredients for hot weather, and essential nutrients to support overall health and energy. Keep your dog happy and healthy, no matter the season</p>
                         </div>
                         <div className="certi-img">
-                            <img src="images/guranteeimage.jpeg" alt="" />
-                            <img src="images/mii.png" alt="" />
+                            <img src={gi} alt="" />
+                            <img src={mii} alt="" />
                         </div>
                     </div>
 

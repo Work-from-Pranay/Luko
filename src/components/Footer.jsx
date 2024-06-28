@@ -1,5 +1,6 @@
 import React from 'react'
 import "../components/Footer.css"
+import Luko from "../../images/Luko.png"
 const Footer = () => {
     return (
         <>
@@ -7,7 +8,7 @@ const Footer = () => {
                 <div id="footer">
 
 
-                    <img src="/images/Luko.png" alt="" />
+                    <img src={Luko} alt="" />
                     <div id="footer-bottom">
                         <p>© 2024 Luko. All rights reserved.</p>
                         <div className="footer-content">

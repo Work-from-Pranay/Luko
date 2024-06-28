@@ -7,6 +7,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
+import pack from "../../images/Luko_Dog_Food_Box_F[1].png"
 
 const Part3 = () => {
     const box6 = useRef();
@@ -54,7 +55,7 @@ const Part3 = () => {
                         </div>
                         <div className="img-div-luko">
 
-                            <img src="images/Luko_Dog_Food_Box_F[1].png" alt="" />
+                            <img src={pack} alt="" />
                         </div>
                     </div>
                     
