@@ -7,6 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 import "../components/Hero.css"
 
 
+
 const Hero = () => {
     const box = useRef();
     useGSAP(() => {
@@ -73,103 +74,103 @@ const Hero = () => {
                 <div className="rotate-div">
                   <div id="row-div-1" className="row-div">
                     <div className="img-div">
-                      <img src="./images/dog1.jpg" alt="" />
+                      <img src="../../images/dog1.jpg" alt="" />
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog1.jpg" alt="" />
-    
-    
-                    </div>
-                    <div className="img-div">
-                      <img src="./images/dog3.jpg" alt="" />
+                      <img src="../../images/dog1.jpg" alt="" />
     
     
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog4.jpg" alt="" />
+                      <img src="../../images/dog3.jpg" alt="" />
+    
+    
+                    </div>
+                    <div className="img-div">
+                      <img src="../../images/dog4.jpg" alt="" />
                     </div>
     
     
                   </div>
                   <div id="row-div-2" className="row-div">
                     <div className="img-div">
-                      <img src="./images/dog3.jpg" alt="" />
+                      <img src="../../images/dog3.jpg" alt="" />
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog7.jpg" alt="" />
-    
-    
-                    </div>
-                    <div className="img-div">
-                      <img src="./images/dog6.jpg" alt="" />
+                      <img src="../../images/dog7.jpg" alt="" />
     
     
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog4.jpg" alt="" />
+                      <img src="../../images/dog6.jpg" alt="" />
+    
+    
+                    </div>
+                    <div className="img-div">
+                      <img src="../../images/dog4.jpg" alt="" />
                     </div>
     
                   </div>
                   <div id="row-div-3" className="row-div">
                     <div className="img-div">
-                      <img src="./images/dog1.jpg" alt="" />
+                      <img src="../../images/dog1.jpg" alt="" />
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog4.jpg" alt="" />
-    
-    
-                    </div>
-                    <div className="img-div">
-                      <img src="./images/dog6.jpg" alt="" />
+                      <img src="../../images/dog4.jpg" alt="" />
     
     
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog6.jpg" alt="" />
+                      <img src="../../images/dog6.jpg" alt="" />
+    
+    
+                    </div>
+                    <div className="img-div">
+                      <img src="../../images/dog6.jpg" alt="" />
                     </div>
     
                   </div>
                   <div id="row-div-4" className="row-div">
                     <div className="img-div">
-                      <img src="./images/dog8.jpg" alt="" />
+                      <img src="../../images/dog8.jpg" alt="" />
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog2.jpg" alt="" />
-    
-    
-                    </div>
-                    <div className="img-div">
-                      <img src="./images/dog9.jpg" alt="" />
+                      <img src="../../images/dog2.jpg" alt="" />
     
     
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog6.jpg" alt="" />
+                      <img src="../../images/dog9.jpg" alt="" />
+    
+    
+                    </div>
+                    <div className="img-div">
+                      <img src="../../images/dog6.jpg" alt="" />
                     </div>
     
                   </div>
                   <div id="row-div-5" className="row-div">
                     <div className="img-div">
-                      <img src="./images/dog1.jpg" alt="" />
+                      <img src="../../images/dog1.jpg" alt="" />
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog2.jpg" alt="" />
-    
-    
-                    </div>
-                    <div className="img-div">
-                      <img src="./images/dog3.jpg" alt="" />
+                      <img src="../../images/dog2.jpg" alt="" />
     
     
                     </div>
                     <div className="img-div">
-                      <img src="./images/dog4.jpg" alt="" />
+                      <img src="../../images/dog3.jpg" alt="" />
+    
+    
+                    </div>
+                    <div className="img-div">
+                      <img src="../../images/dog4.jpg" alt="" />
                     </div>
     
                   </div>
                 </div>
                 <div className="overlay-div">
-                  <img src="/images/Luko.png" alt="" />
+                  <img src="../../images/Luko.png" alt="" />
                   <h4>The Balance Your Buddy Deserves</h4>
                 </div>
               </div>
