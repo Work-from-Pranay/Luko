@@ -1,0 +1,124 @@
+.part4 {
+    width: 100vw;
+    min-height: 100vh;
+    background: #FFFF00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 17;
+
+}
+
+.certi-cont {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    flex-direction: column;
+    padding-left: 6vw;
+    /* opacity: 0; */
+    transition: all ease-in 0.7s;
+    
+    opacity: 0;
+
+}
+
+/* .certi-cont {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    flex-direction: column;
+    padding-left: 6vw;
+    
+    transition: all ease-in 0.7s;
+  
+  } */
+
+.certi-cont h1 {
+    font-family: "FontOne";
+    line-height: 1vw;
+    font-size: 2.7vw;
+}
+
+
+
+.container p {
+    width: 70%;
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    color: rgb(255, 0, 0);
+    font-family: "FontOne";
+    text-align: center;
+    
+
+}
+
+.certi-img {
+    height: 16vw;
+    width: 50vw;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -15vw;
+    transition: all ease-in 0.2s;
+
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.certi-img img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: darken;
+    transition: all ease-in 0.7s;
+}
+
+.certi-img img:nth-child(2) {
+    object-fit: contain;
+    width: 100%;
+    height: 70%;
+    mix-blend-mode: darken;
+    transition: all ease-in 0.7s;
+}
+
+@media (max-width:500px) {
+    .container {
+        margin-top: -10vw;
+        flex-direction: column;
+    }
+
+    .container p {
+        margin-top: 10vw;
+        font-size: 3vw;
+    }
+
+    .certi-cont h1 {
+        font-family: "FontOne";
+        line-height: 1vw;
+        font-size: 6vw;
+    }
+
+    .certi-img {
+        height: 40vw;
+        width: 50vw;
+        opacity: 0;
+       
+        margin-top: -36vw;
+    }
+    .certi-cont {
+        opacity: 0;
+    }
+}

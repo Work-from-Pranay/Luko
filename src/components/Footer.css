@@ -1,0 +1,166 @@
+@font-face {
+    font-family: FontOne;
+    src: url(/Fonts/Beatrice-Regular.otf);
+  }
+  
+.footer-wrap {
+    width: 100vw;
+    height: 80vh;
+}
+
+
+#footer {
+    position: fixed;
+    z-index: 9;
+    height: 80vh;
+    width: 100%;
+    bottom: 0;
+    background-color: #000;
+    background-image: url(/images/output-onlinepngtools.png);
+    opacity: 1;
+    display: flex;
+
+    justify-content: flex-end;
+    flex-direction: column;
+    object-fit: contain;
+    background-position: center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+#footer img {
+    width: 30vw;
+    text-align: center;
+    font-family: 'neu-med';
+    font-weight: bold;
+    color: red;
+    opacity: 1;
+    margin: auto;
+
+}
+
+#footer1 {
+    height: 30%;
+    display: flex;
+    gap: 3vw;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5vw 5vw;
+    position: relative;
+    z-index: 11;
+}
+
+#footer-bottom {
+    border-top: #EFEAE3 0.5px solid;
+    height: 10vh;
+    align-self: center;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+    margin-bottom: 7vw;
+
+}
+
+#footer-bottom p {
+    font-family: 'neu-light';
+    z-index: 9;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35vw;
+    width: 90%;
+    margin-left: 10vw;
+
+}
+
+.lft {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+
+    width: 25%;
+    font-family: FontOne;
+}
+
+.rght {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+
+    width: 30%;
+}
+
+.rght p {
+    font-size: 1vw;
+    font-family: FontOne;
+}
+
+.lft p {
+    font-size: 1vw;
+}
+
+.rght h2 {
+    margin-top: 1vw;
+}
+
+
+#text h3 {
+    font-size: 1vw;
+}
+
+@media (max-width:500px) {
+    #footer {
+
+        background-color: #000;
+        background-image: url(/images/output-onlinepngtools.png);
+        background-size: 200vw;
+
+    }
+    .lft {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4vw;
+    
+        width: 75%;
+    }
+    
+    .rght {
+        display: flex;
+        flex-direction: column;
+        gap: 1.4vw;
+    
+        width: 70%;
+        margin-bottom: 10vw;
+    }
+
+    #footer-bottom {
+        height: 38vh;
+        text-align: center;
+
+    }
+
+    .rght p {
+        font-size: 4vw;
+        text-align: center;
+        
+    }
+
+    .lft p {
+        font-size: 4vw;
+        font-family: FontOne;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 15vw;
+        width: 100%;
+        margin-left: 0vw;
+    }
+}
