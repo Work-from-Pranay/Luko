@@ -168,21 +168,37 @@ nav a {
   left: -1%;
 }
 
-#hero-que {
+.overlay-text {
+  position: absolute;
+ 
+  width: 100%;
+  height: 100vh;
+
+}
+.overlay-text h3 {
   position: absolute;
   z-index: 19;
-  top: 42%;
-  left: 33%;
   font-size: 3.5vw;
   color: #fff000;
   font-family: FontTwo;
   font-weight: bold;
   text-shadow: #0d0d0d 2px 2px 25px;
-
-
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  top: 42%;
+}
+.overlay-text p{
+  font-size: 1.4vw;
+  color: #fff000;
+  font-family: FontTwo;
+  position: absolute;
+  top: 80%;
+  left: 47%;
+  z-index: 19;
 }
 
-#hero-p {
+/* #hero-p {
   position: absolute;
   z-index: 19;
   bottom: 3%;
@@ -193,13 +209,16 @@ nav a {
   font-weight: bold;
   text-shadow: #0d0d0d 4px 4px 10px;
 
-}
+} */
 
 
 
 
 @media (max-width:500px) {
-  #hero-que {
+  .overlay-text{
+    top: 0;
+  }
+  .overlay-text h3 {
     position: absolute;
     z-index: 19;
     top: 42%;
@@ -212,9 +231,11 @@ nav a {
     text-align: center;
     width: 70%;
   }
-  #hero-p{
+  .overlay-text p{
+    position: absolute;
     font-size: 5vw;
-    left: 35%;
+    top: 72%;
+    left: 40%;
   }
 
   .img-div {
