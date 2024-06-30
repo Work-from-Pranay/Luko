@@ -31,12 +31,13 @@ import Luko from "../../images/Luko.png"
 const Hero = () => {
     const box = useRef();
     useGSAP(() => {
+      
       var tl5 = gsap.timeline({
         scrollTrigger: {
           trigger: ".hero",
           start: "50% 50%",
-          end: "250% 50%",
-          scrub: true,
+          end: "260% 50%",
+          scrub: 0.1,
           pin: true,
         }
       })
@@ -73,6 +74,14 @@ const Hero = () => {
         .to(".overlay-div", {
           backgroundColor: "#8b0a0ac6",
         }, 'a')
+        .to("#hero-que", {
+          opacity: "0",
+          top:0,
+        }, 'a')
+        .to("#hero-p", {
+          opacity: "0",
+          bottom:0,
+        }, 'a')
         .to("nav", {
           opacity: 1,
         }, 'a')
@@ -90,6 +99,8 @@ const Hero = () => {
     
             </nav>
             <div className="hero">
+              <h3 id="hero-que">Seeking the Best Dog Meals?</h3>
+              <p id="hero-p">Scroll down</p>
               <div className="content-hero">
                 <div className="rotate-div">
                   <div id="row-div-1" className="row-div">
