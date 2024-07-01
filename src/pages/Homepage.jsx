@@ -12,6 +12,7 @@ const Homepage = () => {
     <>
       <div className="mainHome">
 
+        
         <Hero></Hero>
         <Part2></Part2>
         <Part3></Part3>
@@ -19,6 +20,7 @@ const Homepage = () => {
         <Footer></Footer>
         
       </div>
+      
     </>
   )
 }

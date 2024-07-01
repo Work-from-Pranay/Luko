@@ -6,6 +6,7 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 import "../components/Hero.css"
 
+
 import dog1 from "../../images/dog1.jpg"
 import dog2 from "../../images/dog2.jpg"
 
@@ -83,22 +84,12 @@ const Hero = () => {
         top: 0,
       }, 'a')
       
-      .to("nav", {
-        opacity: 1,
-      }, 'a')
+      
   }, { scope: box })
   return (
     <>
       <div id="main" ref={box}>
-        <nav>
-          <div className="lft-nav">
-            <img src={Luko} alt="" />
-          </div>
-          <div className="rt-nav">
-
-          </div>
-
-        </nav>
+        
         <div className="hero">
           <div className="overlay-text">
             <h3 id="hero-que">Seeking the Best Dog Meals?</h3>
