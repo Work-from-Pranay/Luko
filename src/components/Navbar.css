@@ -72,7 +72,7 @@ li{
     position: fixed;
     z-index: 49;
     background: #00000060;
-    top: -110%;
+    top: -118%;
     transition: all ease 0.5s;
 }
 .toggle{
