@@ -1,8 +1,14 @@
 import React from 'react'
+import "../pages/About.css"
+import Part3 from '../components/Part3'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+        <div className="content-about">
+            <h1>About</h1>
+        </div>
+    </>
   )
 }
 
