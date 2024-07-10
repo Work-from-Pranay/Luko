@@ -27,7 +27,7 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <div className="menu" onClick={()=>{
+                <div className="menu" onClick={() => {
                     setToggle(!toggle)
                 }}>
                     <h3><GiHamburgerMenu /></h3>
@@ -35,18 +35,19 @@ const Navbar = () => {
 
 
             </nav>
-            <div className={toggle ? "fullscr toggle":"fullscr"}>
+            <div className={toggle ? "fullscr toggle" : "fullscr"}>
                 <div id="full-div1">
                     <div id="fulldiv-text">
                         <h1>
                             <a href="/about">About</a>
-                            
+
                         </h1>
                         <h1>
-                            Services
+                            <a href="/services">Services</a>
                         </h1>
                         <h1>
-                            Contact
+                            <a href="/services">Contact</a>
+
                         </h1>
                     </div>
                 </div>

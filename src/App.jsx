@@ -12,6 +12,7 @@ import About from './pages/About'
 import Navbar from './components/Navbar'
 
 
+
 function App() {
 
 
@@ -27,6 +28,7 @@ function App() {
           {/* <Route path="/contact" element={<Contact />} />
           <Route path="/service" element={<Service />} /> */}
         </Routes>
+        
         
       </BrowserRouter>
 

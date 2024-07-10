@@ -1,13 +1,89 @@
+@font-face {
+    font-family: FontOne;
+    src: url(/Fonts/Beatrice-Medium.otf);
+}
+.about-wrap{
+    overflow: hidden;
+}
+
 .content-about{
     background: #fff000;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 98;
+    gap: 2vw;
+    
+}
+
+.para-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #000; */
+    width: 40%;
+}
+
+.para-con p{
+    color: red;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: FontOne;
 }
 .content-about h1{
-    margin: auto;
+    color: red;
+    font-size: 2vw;
+    position: relative;
+    letter-spacing: 0.1vw;
+    
+}
+.content-about h1::after{
+    content: '';
+    /* background: #fd000069; */
+    height: 3px;
+    width: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #000;
+    top: 90%;
+    left: 0;
+   
+    background: linear-gradient(
+        90deg, 
+        #F70000, 
+        #FF1400, 
+        #FFBE00, 
+        #F3D913, 
+        #F6FFFF
+    );
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+    background-color: #0b3954;
+    
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+@media (max-width:500px) {
+    .para-con {
+        width: 70%;
+    }
+    .para-con p{
+        color: red;
+        text-align: center;
+        font-size: 3vw;
+        font-family: FontOne;
+    }
+    .content-about{
+        gap: 5vw;
+    }
+    .content-about h1{
+        font-size: 5vw;
+    }
 }
