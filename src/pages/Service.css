@@ -1,0 +1,85 @@
+@font-face {
+    font-family: FontOne;
+    src: url(/Fonts/Beatrice-Regular.otf);
+}
+
+.service-wrap{
+    overflow: hidden;
+    
+}
+
+.service{
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    
+    position: relative;
+    z-index: 98;
+}
+
+.simg-div{
+    width: 50%;
+    height: 80%;
+    /* background: #000; */
+}
+.simg-div img{
+    object-fit: contain;
+    width: 100%;
+    height: 90%;
+    margin-top: 3vw;
+    
+}
+.scontent i{
+    text-align: center;
+    font-family: FontOne;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.scontent{
+    
+    width: 40%;
+    color: #fff344;
+    height: 50%;
+}
+.scontent p{
+    font-family: "FontOne";
+    width: 80%;
+    font-size: 1.4vw;
+    color: white;
+}
+
+@media (max-width:500px) {
+    .service{
+        flex-direction: column;
+        gap: 1vw;
+    }
+    .scontent p{
+        font-family: "FontOne";
+        width: 80%;
+        font-size: 3.5vw;
+        color: white;
+        text-align: center;
+        margin-left: 11vw;
+    }
+    .scontent h1{
+        text-align: center;
+    }
+    .scontent{
+        align-items: center;
+        width: 100%;
+        color: #fff344;
+        margin-top: -40vw;
+
+        height: 50%;
+    }
+    .scontent i{
+        text-align: center;
+        font-family: FontOne;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+}

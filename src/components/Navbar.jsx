@@ -19,7 +19,7 @@ const Navbar = () => {
                     <ul>
 
                         <li><a href="/about">About</a></li>
-                        <li><a href="/service">Services</a></li>
+                        <li><a href="/services">Services</a></li>
                         <li><a href="/contact">Contact</a></li>
 
 
@@ -46,7 +46,7 @@ const Navbar = () => {
                             <a href="/services">Services</a>
                         </h1>
                         <h1>
-                            <a href="/services">Contact</a>
+                            <a href="/contact">Contact</a>
 
                         </h1>
                     </div>

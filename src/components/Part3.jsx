@@ -26,9 +26,7 @@ const Part3 = () => {
         tl3.to(".content-luko", {
             opacity: "1",
         })
-        tl3.to(".img-div-luko img", {
-            opacity: "1",
-        })
+        
        
       
 

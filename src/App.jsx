@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 import Homepage from './pages/Homepage';
 import About from './pages/About'
 import Navbar from './components/Navbar'
+import Service from './pages/Service';
 
 
 
@@ -24,6 +25,8 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Service />} />
+
           <Route path="/" element={<Homepage />} />
           {/* <Route path="/contact" element={<Contact />} />
           <Route path="/service" element={<Service />} /> */}
