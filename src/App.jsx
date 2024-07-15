@@ -11,6 +11,7 @@ import Homepage from './pages/Homepage';
 import About from './pages/About'
 import Navbar from './components/Navbar'
 import Service from './pages/Service';
+import Contact from './pages/Contact';
 
 
 
@@ -26,6 +27,8 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
+          <Route path="/contact" element={<Contact />} />
+
 
           <Route path="/" element={<Homepage />} />
           {/* <Route path="/contact" element={<Contact />} />

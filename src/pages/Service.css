@@ -3,12 +3,12 @@
     src: url(/Fonts/Beatrice-Regular.otf);
 }
 
-.service-wrap{
+.service-wrap {
     overflow: hidden;
-    
+    position: relative;
 }
 
-.service{
+.service {
     background: red;
     width: 100vw;
     height: 100vh;
@@ -16,36 +16,64 @@
     justify-content: center;
     align-items: center;
     gap: 3vw;
-    
+
     position: relative;
     z-index: 98;
 }
 
-.simg-div{
+.sdog {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    z-index: 100;
+    bottom: 50%;
+    left: 34.1%;
+    transition: all 0.3s ease-in;
+    opacity: 0;
+}
+@media (max-width:1366px) {
+    .sdog{
+        left: 35.6%;
+    }
+}
+
+.sdog img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in;
+}
+
+.simg-div {
     width: 50%;
     height: 80%;
+    
     /* background: #000; */
 }
-.simg-div img{
+
+.simg-div img {
     object-fit: contain;
     width: 100%;
     height: 90%;
     margin-top: 3vw;
-    
+
 }
-.scontent i{
+
+.scontent i {
     text-align: center;
     font-family: FontOne;
     font-size: 1.5vw;
     font-weight: bold;
 }
-.scontent{
-    
+
+.scontent {
+
     width: 40%;
     color: #fff344;
     height: 50%;
 }
-.scontent p{
+
+.scontent p {
     font-family: "FontOne";
     width: 80%;
     font-size: 1.4vw;
@@ -53,11 +81,12 @@
 }
 
 @media (max-width:500px) {
-    .service{
+    .service {
         flex-direction: column;
         gap: 1vw;
     }
-    .scontent p{
+
+    .scontent p {
         font-family: "FontOne";
         width: 80%;
         font-size: 3.5vw;
@@ -65,10 +94,12 @@
         text-align: center;
         margin-left: 11vw;
     }
-    .scontent h1{
+
+    .scontent h1 {
         text-align: center;
     }
-    .scontent{
+
+    .scontent {
         align-items: center;
         width: 100%;
         color: #fff344;
@@ -76,7 +107,8 @@
 
         height: 50%;
     }
-    .scontent i{
+
+    .scontent i {
         text-align: center;
         font-family: FontOne;
         font-size: 4vw;

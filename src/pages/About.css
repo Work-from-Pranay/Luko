@@ -2,11 +2,13 @@
     font-family: FontOne;
     src: url(/Fonts/Beatrice-Medium.otf);
 }
-.about-wrap{
+
+.about-wrap {
     overflow: hidden;
+    position: relative;
 }
 
-.content-about{
+.content-about {
     background: #fff000;
     width: 100vw;
     height: 100vh;
@@ -17,10 +19,10 @@
     position: relative;
     z-index: 98;
     gap: 2vw;
-    
+
 }
 
-.para-con{
+.para-con {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -28,20 +30,22 @@
     width: 40%;
 }
 
-.para-con p{
+.para-con p {
     color: red;
     text-align: center;
     font-size: 1.3vw;
     font-family: FontOne;
 }
-.content-about h1{
+
+.content-about h1 {
     color: red;
     font-size: 2vw;
     position: relative;
     letter-spacing: 0.1vw;
-    
+
 }
-.content-about h1::after{
+
+.content-about h1::after {
     content: '';
     /* background: #fd000069; */
     height: 3px;
@@ -49,24 +53,145 @@
     position: absolute;
     top: 90%;
     left: 0;
-   
-    background: linear-gradient(
-        90deg, 
-        #F70000, 
-        #FF1400, 
-        #FFBE00, 
-        #F3D913, 
-        #F6FFFF
-    );
+
+    background: linear-gradient(90deg,
+            #F70000,
+            #FF1400,
+            #FFBE00,
+            #F3D913,
+            #F6FFFF);
     background-size: 200% 200%;
     animation: gradientAnimation 10s ease infinite;
     background-color: #0b3954;
-    
+
 }
+
 @keyframes gradientAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.abdog {
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    z-index: 100;
+    bottom: 54.7%;
+    left: 64%;
+    transition: all 0.3s ease-in;
+}
+
+.abdog img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width:1366px) {
+    .abdog {
+        bottom: 53.9%;
+    }
+}
+
+@media (max-width:500px) {
+    .abdog {
+        position: absolute;
+        width: 60%;
+        height: 29.9%;
+        z-index: 100;
+        bottom: 54.7%;
+        left: 20%;
+    }
+}
+
+
+.about2 {
+    width: 100vw;
+    height: 120vh;
+    position: relative;
+    z-index: 98;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-chicken {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 8vw 0vw;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+
+.about2 h3 {
+    color: #ffe100;
+    font-size: 2vw;
+    width: 50%;
+    margin-top: 4vw;
+    text-align: center;
+    position: relative;
+}
+
+.about2 h3::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 83%;
+    background-color: #FFBE00;
+    top: 100%;
+    left: 8.3%;
+}
+
+.real {
+    text-align: center;
+    font-size: 1.2vw;
+    /* font-family: FontOne; */
+    width: 30%;
+    color: #ffe100;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.chickmeal {
+    width: 30%;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #ffe100;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+
+}
+
+.cbp {
+    font-size: 1.2vw;
+    text-align: center;
+    width: 30%;
+    color: #ffe100;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+
+}
+
+.about-chicken p {
+    font-family: FontOne;
 }
 
 
@@ -74,16 +199,19 @@
     .para-con {
         width: 70%;
     }
-    .para-con p{
+
+    .para-con p {
         color: red;
         text-align: center;
         font-size: 3vw;
         font-family: FontOne;
     }
-    .content-about{
+
+    .content-about {
         gap: 5vw;
     }
-    .content-about h1{
+
+    .content-about h1 {
         font-size: 5vw;
     }
 }
