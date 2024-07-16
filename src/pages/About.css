@@ -197,13 +197,13 @@
 
 @media (max-width:500px) {
     .para-con {
-        width: 70%;
+        width: 80%;
     }
 
     .para-con p {
         color: red;
         text-align: center;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: FontOne;
     }
 
@@ -212,6 +212,53 @@
     }
 
     .content-about h1 {
-        font-size: 5vw;
+        font-size: 8vw;
+    }
+    .about-chicken {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8vw 0vw;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 8vw;
+    }
+    .real {
+        text-align: center;
+        font-size: 3vw;
+        /* font-family: FontOne; */
+        width: 45%;
+        color: #ffe100;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+    }
+    .about2 h3{
+        width: 100%;
+        font-size: 4vw;
+    }
+    
+    .chickmeal {
+        width: 45%;
+        font-size: 3vw;
+        text-align: center;
+        color: #ffe100;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+    
+    }
+    
+    .cbp {
+        font-size: 3vw;
+        text-align: center;
+        width: 45%;
+        color: #ffe100;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+    
     }
 }

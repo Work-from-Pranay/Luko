@@ -1,4 +1,4 @@
-.contact-wrap{
+.contact-wrap {
     width: 100vw;
     height: 100vh;
     background: red;
@@ -6,8 +6,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
-.con-content{
+
+.con-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,9 +20,18 @@
     gap: 3vw;
     border-radius: 10px;
 }
-.ctext{
+
+.ctext {
     color: red;
+    text-align: center;
+    width: 90%;
 }
+
+.ctext p {
+    font-family: FontOne;
+    text-align: center;
+}
+
 .snimg {
     position: absolute;
     width: 30%;
@@ -38,6 +49,7 @@
     object-fit: contain;
     transition: all 0.3s ease-in;
 }
+
 .lp {
     position: absolute;
     width: 30%;
@@ -55,8 +67,42 @@
     object-fit: contain;
     transition: all 0.3s ease-in;
 }
-/* @media (max-width:1366px) {
-    .snimg{
-        left: 35.6%;
+
+@media (max-width:1366px) {
+    .snimg {
+        left: 10.8%;
     }
-} */
+
+    .lp {
+        left: 56.3%;
+    }
+}
+
+@media (max-width:500px) {
+    .con-content {
+        width: 70%;
+        gap: 7vw;
+    }
+
+    .ctext {
+        width: 100%;
+    }
+
+    .ctext p {
+        font-size: 3.5vw;
+    }
+
+    .snimg {
+        left: -12.2%;
+        top: 58%;
+        width: 40%;
+        height: 34%;
+    }
+
+    .lp {
+        left: 56.3%;
+        width: 65%;
+        top: 1%;
+        height: 40%;
+    }
+}

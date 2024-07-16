@@ -9,13 +9,17 @@ const Contact = () => {
             <div className="con-content">
                 <div className="ctext">
                     <h1>Timing</h1>
+                    <p>Monday To Friday,9AM to 5.30PM</p>
 
                 </div>
                 <div className="ctext">
-                    <h1>call</h1>
+                    <h1>Email</h1>
+                    <p>luko.khatigroupofindustries.com</p>
                 </div>
                 <div className="ctext">
-                    <h1>email</h1>
+                    <h1>Address</h1>
+                    <p>Khati Groups of Industries,Village Bijalpur, Indore, Madhya Pradesh 452012,India</p>
+                    <p>Customer care & contact address: Same as manufacturer's address.</p>
 
                 </div>
             </div>

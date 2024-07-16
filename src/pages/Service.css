@@ -31,8 +31,9 @@
     transition: all 0.3s ease-in;
     opacity: 0;
 }
+
 @media (max-width:1366px) {
-    .sdog{
+    .sdog {
         left: 35.6%;
     }
 }
@@ -47,7 +48,7 @@
 .simg-div {
     width: 50%;
     height: 80%;
-    
+
     /* background: #000; */
 }
 
@@ -84,6 +85,12 @@
     .service {
         flex-direction: column;
         gap: 1vw;
+    }
+
+    .sdog {
+        width: 49%;
+        height: 56%;
+        left: 57.6%;
     }
 
     .scontent p {

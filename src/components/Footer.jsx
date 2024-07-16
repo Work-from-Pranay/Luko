@@ -25,7 +25,7 @@ const Footer = () => {
                                 <h2><i>CONTACT</i></h2>
                                 <p>9826583875 <br />
                                     Monday-Friday
-                                    10:00 AM - 5:00 PM
+                                    9:00 AM - 5:30 PM
                                     luko.khatigroupofindustries@gmail.com</p>
                             </div>
                         </div>
